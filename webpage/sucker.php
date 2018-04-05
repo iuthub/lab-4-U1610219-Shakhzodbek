@@ -31,19 +31,33 @@
 			<dd><?= $crCode?>(<?= $crType?>)</dd>
 		</dl>
 		<p>Here are all the suckers who have submitted here:</p>
+<<<<<<< HEAD
 		<?php
+=======
+			<?php
+>>>>>>> d9b0563e107d3ec74e9d3247f4d0cba4b66edbf3
 				$file = fopen("suckers.txt", "r");
 				while(!feof($file)){
 					echo fgets($file)."<br>";
 				}
 				fclose($file);
+<<<<<<< HEAD
 			} 
 		 	else{
 		?>
+=======
+		 } 
+		 else{
+		 	?>
+>>>>>>> d9b0563e107d3ec74e9d3247f4d0cba4b66edbf3
 			<h1 align="center">Sorry</h1>
 			<p>You didn't fill out the form completely. <a href="buyagrade.html">Try again?</a></p>
 		<?php
 			}
+<<<<<<< HEAD
 		?>
+=======
+			?>
+>>>>>>> d9b0563e107d3ec74e9d3247f4d0cba4b66edbf3
 	</body>
 </html>
